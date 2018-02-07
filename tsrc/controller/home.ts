@@ -6,7 +6,6 @@ class HomeController extends Controller {
   }
 
   async isIOS() {
-    console.warn(this.ctx.header)
     this.ctx.body = `isIOS: ${this.ctx.isIOS}`;
   }
 }
